@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="https://kit.fontawesome.com/4c2caa1f1e.js" crossorigin="anonymous"></script>
+
+    <title>Curriculum Vitae - Ferdy Lim</title>
+  </head>
+  <body onchange="dropdown()">
+    <div id="overlay" onclick="overlayClick()">
+      <a href="#about" class="button">Profile</a>
+      <a href="#pendidikan" class="button">Riwayat Pendidikan</a>
+      <a href="#pekerjaan" class="button">Riwayat Pekerjaan</a>
+      <a href="#skill" class="button">Kemampuan</a>
+    </div>
+    <header>
+      <section>
+        <h1>Hello Welcome To My Profile</h1>
+        <p>Seorang mahasiswa biasa yang ingin menjadi Hero</p>
+      </section>
+      <nav>
+        <a id="menu" onclick="overlay()">Menu</a>
+        <ul>
+          <li><a href="#about">Profile</a></li>
+          <li><a href="#pendidikan" >Riwayat Pendidikan</a></li>
+          <li><a href="#pekerjaan" >Riwayat Pekerjaan</a></li>
+          <li><a href="#skill">Kemampuan</a></li>
+        </ul>
+      </nav>
+      <br>
+    </header>
+    <main>
+      <aside>
+        <article>
+          <section class="card" id="about">
+            <h2>Data Diri</h2>
+            <br />
+            <img
+              src="/assets/img/profile-picture.png"
+              alt="Foto Profil"
+              class="circle-img profile-img"
+              onclick="alert('ini foto')"
+            />
+            <br />
+            <table>
+              <tr>
+                <th>Nama</td>
+                <td>Ferdy Lim</td>
+              </tr>
+              <tr>
+                <th>Tempat, Tanggal Lahir</th>
+                <td>Tarakan, 09 Juni 2001</td>
+              </tr>
+              <tr>
+                <th>Agama</th>
+                <td>Buddha</td>
+              </tr>
+              <tr>
+                <th>Status</th>
+                <td>Belum menikah</td>
+              </tr>
+              <tr>
+                <th>Pekerjaan</th>
+                <td>Mahasiswa</td>
+              </tr>
+              <tr>
+                <th>Email</th>
+                <td><a href="mailto:ferdylimm9@gmail.com">ferdylimm9@gmail.com</a></td>
+              </tr>
+              <tr>
+                <th>Nomor Telepon</th>
+                <td><a href="tel:+6282268743001">082268743001</a></td>
+              </tr>
+              <tr>
+                <th>Domisili</th>
+                <td>Medan - Indonesia</td>
+              </tr>
+            </table>
+          </section>
+          <section class="card">
+            <h2>Tentang Saya</h2>
+            <p>
+              Nama saya Ferdy, saya adalah seorang mahasiswa semester 6 jurusan
+              Teknik Informatika di Universitas Mikroskil Medan. saya juga sebagai
+              front end developer di Springkraf.
+              <br />
+              Saya telah mengikuti dicoding selama 1 tahun dan telah mendapatkan 3
+              sertifikat yaitu Sertifikasi Flutter dasar, Sertifikasi Solid
+              Principle, dan Sertifikasi Android Dasar.
+            </p>
+          </section>
+        </article>
+      </aside>
+      <div class="content">
+        <article id="pendidikan" class="card">
+          <h2>Riwayat Pendidikan</h2>
+          <br />
+          <section>
+            <h3 class="school">Universitas Mikroskil Medan</h3>
+            <p>
+              <span class="jurusan">S1 - Teknik Informatika</span> |
+              <span class="year">2019 - Sekarang</span>
+            </p>
+            <ul>
+              <li>Anggota MPC Mikroskil 2021</li>
+              <li>Panitia Perlengkapan Ideafuse 2021</li>
+              <li>
+                  Top 80/546 | The 2021 ICPC Asia Jakarta - Indonesia National Contest in team <b>Laucua Mikroskil</b> 
+              </li>
+            </ul>
+          </section>
+          <br />
+          <hr />
+          <br />
+          <section>
+            <h3 class="school">SMA Ahmad Yani Binjai</h3>
+            <p>
+              <span class="jurusan">IPA</span> |
+              <span class="year">2016 - 2019</span>
+            </p>
+            <ul>
+              <li>
+                Juara Harapan 1 Lari Jarak Menengah 1,6KM Porkot Kota Binjai
+              </li>
+              <li>
+                Juara 1 Tournament Oynama 2018 Dota 2 as
+                <a href="https://yamisok.com/players/kryvins" target="_blank"><b>Kryvins</b></a> in team
+                <a href="https://yamisok.com/teams/infinite-looping" target="_blank"><b>(Infinite Looping)</b></a>
+              </li>
+            </ul>
+          </section>
+        </article>
+        <article id="pekerjaan" class="card">
+            <h2>Riwayat Pekerjaan</h2>
+            <br>
+            <section>
+                <h3>Front End Developer</h3>
+                <p><span class="perusahaan">Springkraf</span> | <span class="year">Jun 2022 - Sekarang</span></p>
+                <ul></ul>
+            </section>
+            <br />
+            <hr />
+            <br />
+            <section>
+                <h3>Bookkeeper Accounting</h3>
+                <p><span class="perusahaan">PT Capella Dinamik Nusantara</span> | <span class="year">Mei 2021 - Jun 2021</span></p>
+                <ul>
+                    <li>Merekap Laporan Stock Hadiah Pembelian Motor pada 43 Cabang</li>
+                    <li>Mengelola dan Membuat Laporan Discount untuk penjualan motor terhadap 43 Cabang</li>
+                    <li>Menganalisis data flow terhadap Stock Hadiah pada Headoffice</li>
+                </ul>
+            </section>
+            <br />
+            <hr />
+            <br />
+            <section>
+                <h3>Assistant IT Support</h3>
+                <p><span class="perusahaan">CV Makmur Auto Sejahtera</span> | <span class="year">Agu 2020 - Mei 2021</span></p>
+                <ul>
+                    <li>Memelihara perangkat komputer dan perkantoran</li>
+                    <li>Memelihara jaringan pada area perkantoran</li>
+                    <li>Merakit perangkat komputer untuk kebutuhan karyawan</li>
+                    <li>Melakukan instalasi perangkat lunak</li>
+                </ul>
+            </section>
+            <br />
+            <hr />
+            <br />
+            <section>
+              <h3>Guru Ekstrakulikuler dan Staff IT</h3>
+              <p><span class="perusahaan">Yayasan Pendidikan Ahmad Yani</span> | <span class="year">Jun 2019 - Jul 2019</span></p>
+              <ul>
+                <li>Pengajar Ekstrakulikuler Teknologi Informasi dan Komunikasi tingkat SD dan SMP</li>
+                <li>Memeilihara perangkat komputer pada laboratorium komputer</li>
+                <li>Mendokumentasikan event - event yang diadakan</li>
+                <li>Melakukan pengeditan video</li>
+              </ul>
+            </section>
+        </article>
+        <article id="skill" class="card">
+          <h2>Kemampuan</h2>
+          <br>
+          <section>
+            <table>
+              <tr>
+                <th>Competitive Programming - Python</th>
+                <td><a href="https://www.hackerrank.com/certificates/a665f9f4af1d" target="_blank" rel="dofollow"> Sertifikasi</a></td>
+              </tr>
+              <tr>
+                <th>Cross Platfrom Programming - Flutter</th>
+                <td><a href="https://www.dicoding.com/certificates/NVP7KGGWWZR0" target="_blank" rel="dofollow">Sertifikasi</a></td>
+              </tr>
+              <tr>
+                <th>Android Programming - Kotlin</th>
+                <td><a href="https://www.dicoding.com/certificates/JLX13OM15P72" target="_blank" rel="dofollow">Sertifikasi</a></td>
+              </tr>
+              <tr>
+                <th>Database Relational - SQL</th>
+                <td><a href="https://www.hackerrank.com/certificates/a5024b1f36d7" target="_blank" rel="dofollow">Sertifikasi</a></td>
+              </tr>
+              <tr>
+                <th>Git</th>
+                <td><a href="https://progate.com/course_certificate/33e7846cr8dnvq" target="_blank" rel="dofollow">Sertifikasi</a></td>
+              </tr>
+              <tr>
+                <th>Command Line</th>
+                <td><a href="https://progate.com/course_certificate/51d22255r8dkwq" target="_blank" rel="dofollow">Sertifikasi</a></td>
+              </tr>
+              <tr>
+                <th>Solid Principle Programming</th>
+                <td><a href="https://www.dicoding.com/certificates/81P229QJQPOY" target="_blank" rel="dofollow">Sertifikasi</a></td>
+              </tr>
+              <tr>
+                <th>Desktop Programming - C#</th>
+              </tr>
+              <tr>
+                <th>Object Oriented Programming</th>
+              </tr>
+              <tr>
+                <th>Microsoft Office</th>
+              </tr>
+              <tr>
+                <th>HTML</th>
+              </tr>
+              <tr>
+                <th>CSS</th>
+              </tr>
+              <tr>
+                <th>Editing Video - Adobe Premiere Pro</th>
+              </tr>
+              <tr>
+                <th>Editing Photo - Adobe Photoshop</th>
+              </tr>
+            </table>
+          </section>
+          <br>
+        </article>
+      </div>
+    </main>
+    <footer>
+      <p>&copy;2022 <a href="mailto:ferdylimm9@gmail.com">ferdylimm9@gmail.com</a> | Dicoding 2022</p>
+    </footer>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
