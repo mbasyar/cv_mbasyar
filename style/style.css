@@ -150,7 +150,7 @@ table tr th{
 }
 @media screen and (max-width: 889px) {
   *{
-    font-size: 90%;
+    font-size: 95%;
   }
   main {
     flex-direction: column;
