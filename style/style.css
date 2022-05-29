@@ -149,9 +149,6 @@ table tr th{
     text-align: left;
 }
 @media screen and (max-width: 889px) {
-  *{
-    font-size: 95%;
-  }
   main {
     flex-direction: column;
   }
@@ -164,5 +161,14 @@ table tr th{
   #menu {
     display: block;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  *{
+    font-size: 96%;
+  }
+  .card{
+    padding: 20px;
   }
 }
