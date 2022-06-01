@@ -101,7 +101,7 @@ hr {
 section a:hover,
 header a:hover
 {
-    background-color: rgba(54, 48, 98, 0.5);
+    font-weight: bold;
 }
 footer {
   display: flex;
