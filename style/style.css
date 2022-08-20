@@ -74,9 +74,11 @@ aside article section {
   margin: 10px;
   border-radius: 5px;
   box-shadow: 6px 4px 8px 6px rgba(54, 48, 98, 0.2);
-
   padding: 30px;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .card:hover {
