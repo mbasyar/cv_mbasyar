@@ -10,11 +10,15 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
+h2 {
+  margin-bottom: 5px;
 
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
 body {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   font-family: "Poppins", Helvetica, sans-serif;
-  color: #363062;
+  color: #1f2b38;
 }
 
 nav {
@@ -23,7 +27,7 @@ nav {
   position: sticky;
   padding: 10px;
   top: 0;
-  background-color: rgb(130, 115, 151);
+  background-color: #1f2b387a;
 }
 
 header nav ul {
@@ -31,12 +35,12 @@ header nav ul {
   justify-content: space-around;
   list-style-type: none;
 }
-header section{
-    background-color: rgb(54, 48, 98);
-    padding: 30px;
+header section {
+  background-color: #1f2b38;
+  padding: 30px;
 }
 header a {
-  color: #e9d5ca;
+  color: #ffffff;
 }
 main ul {
   margin-left: 20px;
@@ -44,8 +48,7 @@ main ul {
 header {
   display: inline;
   text-align: center;
-  color: #e9d5ca;
-
+  color: #ffffff;
 }
 main {
   display: flex;
@@ -84,6 +87,8 @@ aside article section {
 .card:hover {
   box-shadow: 6px 4px 8px 6px rgba(54, 48, 98, 0.5);
   border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: #1f2b38;
 }
 hr {
   border: 1px solid #4d4c7d;
@@ -101,19 +106,18 @@ hr {
 }
 .button:hover,
 section a:hover,
-header a:hover
-{
-    font-weight: bold;
+header a:hover {
+  font-weight: bold;
 }
 footer {
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  background-color: rgb(54, 48, 98);
+  background-color: #1f2b38;
   color: #e9d5ca;
 }
-footer a{
-    color: #e9d5ca;
+footer a {
+  color: #e9d5ca;
 }
 #overlay {
   position: fixed;
@@ -134,11 +138,11 @@ footer a{
 #menu {
   display: none;
 }
-#close{
-    font-size: 32px;
-    font-weight: bold;
-    margin:20px;
-    color: #e9d5ca;
+#close {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px;
+  color: #e9d5ca;
 }
 table {
   width: 100%;
@@ -147,8 +151,8 @@ table {
 table tr td {
   text-align: right;
 }
-table tr th{
-    text-align: left;
+table tr th {
+  text-align: left;
 }
 @media screen and (max-width: 889px) {
   main {
@@ -167,10 +171,10 @@ table tr th{
 }
 
 @media screen and (max-width: 478px) {
-  *{
+  * {
     font-size: 95%;
   }
-  .card{
+  .card {
     padding: 20px;
   }
 }
