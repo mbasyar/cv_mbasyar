@@ -170,9 +170,9 @@ table tr th {
 }
 
 @media screen and (max-width: 478px) {
-  * {
+  /* * {
     font-size: 95%;
-  }
+  } */
   .card {
     padding: 20px;
   }
