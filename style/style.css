@@ -10,9 +10,9 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
-h2 {
-  margin-bottom: 5px;
-
+.title {
+  margin-bottom: 10px;
+  font-weight: bold;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 body {
@@ -78,7 +78,6 @@ aside article section {
   border-radius: 5px;
   box-shadow: 6px 4px 8px 6px rgba(54, 48, 98, 0.2);
   padding: 30px;
-  cursor: pointer;
   display: flex;
   flex-direction: column;
   gap: 4px;
